@@ -1,0 +1,3 @@
+source_file,n_segments,n_speaker_clusters,segments_without_speaker,share_segments_without_speaker,n_aligned_words,words_without_speaker,share_words_without_speaker
+CyrusOne/Cyrusone_Hearing_12032025.mp3,3350,48,4,0.0011940298507462687,42494,25,0.000588318350825999
+CyrusOne/COB_20260323_Imported.mp3,2888,79,2,0.0006925207756232687,33486,5,0.00014931613211491369

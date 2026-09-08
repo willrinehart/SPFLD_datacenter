@@ -1,0 +1,43 @@
+{
+  "run_started_utc": "2026-08-20T03:23:14.802478+00:00",
+  "run_finished_utc": "2026-08-20T08:21:48.977491+00:00",
+  "source_file": "CyrusOne/Cyrusone_Hearing_12032025.mp3",
+  "source_sha256": "dfc4dfef932f09c8122ea820d9374a4e3d58ecd4e314a305771bbc851d1d62a6",
+  "source_size_bytes": 57508992,
+  "pipeline": [
+    "whisperx_asr",
+    "forced_alignment",
+    "speaker_diarization",
+    "speaker_assignment",
+    "exports"
+  ],
+  "language": "en",
+  "asr_model": "large-v3",
+  "device": "cpu",
+  "compute_type": "int8",
+  "batch_size": 4,
+  "diarization_enabled": true,
+  "diarization_model": "pyannote/speaker-diarization-community-1",
+  "min_speakers": null,
+  "max_speakers": null,
+  "python_version": "3.10.18 (main, Jun  3 2025, 18:23:41) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "torch_version": "2.8.0",
+  "whisperx_version": "version attribute unavailable",
+  "n_segments": 3350,
+  "n_aligned_words": 42494,
+  "n_speaker_clusters": 48,
+  "n_segments_without_speaker": 4,
+  "n_words_without_speaker": 25,
+  "outputs": {
+    "asr_json": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_asr.json",
+    "aligned_json": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_aligned.json",
+    "diarization_csv": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_diarization.csv",
+    "final_json": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_whisperx.json",
+    "plain_txt": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_transcript.txt",
+    "speaker_txt": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_speakers.txt",
+    "segments_csv": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_segments.csv",
+    "words_csv": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_words.csv",
+    "metadata_json": "whisperx_outputs_diarized/Cyrusone_Hearing_12032025_run_metadata.json"
+  }
+}
